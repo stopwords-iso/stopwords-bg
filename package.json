@@ -1,0 +1,26 @@
+{
+  "name": "stopwords-bg",
+  "version": "0.1.0",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "The most comprehensive collection of stopwords for the bulgarian language.",
+  "keywords": [
+    "bulgarian",
+    "stopwords",
+    "stop words"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/stopwords-iso/stopwords-bg",
+  "bugs": "https://github.com/stopwords-iso/stopwords-bg/issues",
+  "main": "stopwords-bg.json",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "stopwords-collator -s raw -o stopwords-bg",
+    "test": "npm run build && jsonlint stopwords-bg.json -q"
+  },
+  "devDependencies": {
+    "stopwords-collator": "*",
+    "jsonlint": "1.6.x"
+  }
+}

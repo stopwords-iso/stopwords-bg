@@ -1,0 +1,21 @@
+{
+  "name": "stopwords-bg",
+  "description": "The most comprehensive collection of stopwords for the bulgarian language.",
+  "keywords": [
+    "bulgarian",
+    "stopwords",
+    "stop words"
+  ],
+  "homepage": "https://github.com/stopwords-iso/stopwords-bg",
+  "authors": [
+    "Gene Diaz <genediazjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "stopwords-bg.json",
+  "ignore": [
+    "**/.*",
+    "raw",
+    "node_modules",
+    "bower_components"
+  ]
+}
